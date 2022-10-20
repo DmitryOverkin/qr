@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+// ======Variables=====
+$white: hsl(0, 0%, 100%);
+$light-gray: hsl(212, 45%, 89%);
+$grayish-blue: hsl(220, 15%, 55%);
+$dark-blue: hsl(218, 44%, 22%);
+
+$font-main-size: 15px;
+$font-regular: 400;
+$font-bold: 700;
+
+
+// =====Main-Styles=====
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: $font-main-size;
+    font-family: 'Outfit', sans-serif;
+}
+
+// ====styles===
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: $light-gray;
+    align-items: center;
+    justify-content: center;
+}
+.code-content{
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+    background-color: $white;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 100px -5px rgba(5, 53, 90, 0.07);
+    -moz-box-shadow: 0px 0px 100px -5px rgba(5, 53, 90, 0.07);
+    box-shadow: 0px 0px 100px -5px rgba(5, 53, 90, 0.07);  
+}
+.img{
+    width: 280px;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.title{
+    font-weight: $font-bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.paragraph{
+    font-size: $font-main-size;
+    text-align: center;
+    color: $grayish-blue;
+}
+
